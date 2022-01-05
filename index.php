@@ -63,7 +63,22 @@
     $people[4]['lastname'] =" Vodicka" ;
     $people[4]['age'] =" 16";
     $people[4]['height'] =" 175" ;
-    $people[4]['favnumber'] =" people";
+    $people[4]['favnumber'] =" people"; 
+    
+    $people[0]['firstname'] ='Martin';
+    $people[0]['boots'] = $boots[0];
+
+    $people[1]['firstname'] ='Jan';
+    $people[1]['boots'] = $boots[0];
+
+    $people[2]['firstname'] ='Lukáš';
+    $people[2]['boots'] = $boots[0];
+
+    $people[3]['firstname'] ='Stepan';
+    $people[3]['boots'] = $boots[0];
+
+    $people[4]['firstname'] ='Simon';
+    $people[4]['boots'] = $boots[0];
 
     for ($i=0; $i <count($people); $i++) { ?>{ 
         <h2><?= $people[$i]['firstname'];?></h2>
